@@ -1,0 +1,110 @@
+* {
+  font-family: Bahnschrift;
+}
+
+body {
+  background: rgb(6,73,107);
+  background: linear-gradient(90deg, rgba(6,73,107,1) 11%, rgba(0,0,0,1) 100%);
+  box-sizing: border-box;
+}
+
+.body {
+  background-color: lightcoral;
+}
+
+.text {
+  font-size: 50px;
+}
+
+button {
+  background-color: black;
+  color: white;
+}
+
+input{
+  padding: 5px;
+}
+
+form {
+  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+input {
+  width: 200px;
+  padding: 10px 5px;
+}
+
+button[type='submit'] {
+  padding: 10px 5px;
+  width: 214px;
+}
+
+.block {
+  background-color: darksalmon;
+  padding: 10px;
+  margin: 5px;
+  box-shadow: 5px 5px 10px 5px white;
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
+
+ul {
+  display: flex;
+  justify-content: flex-end;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+li {
+  list-style: none;
+  margin: 10px;
+
+}
+
+a:hover {
+  color: darkgrey;
+}
+
+.top__burger {
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  margin: 16px 0;
+  padding: 13px;
+}
+.line, .line2, .line3 {
+  background-color: white;
+  height: 3px;
+  width: 30px;
+  border-radius: 15px;
+}
+.line, .line2 {
+  margin-bottom: 5px;
+}
+.top__burger:hover .line {
+  transform: rotate(45deg) translate(37%);
+}
+.top__burger:hover .line2 {
+  opacity: 0;
+}
+.top__burger:hover .line3 {
+  transform: rotate(135deg) translate(-37%);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 90%;
+}
