@@ -1,6 +1,6 @@
 {
   "name": "github",
-  "description": "Learning modules",
+  "description": "Baigiamasis",
   "version": "1.0.0",
   "scripts": {
     "build": "webpack",
