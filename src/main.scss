@@ -1,110 +1,199 @@
 * {
-  font-family: Bahnschrift;
-}
-
-body {
-  background: rgb(6,73,107);
-  background: linear-gradient(90deg, rgba(6,73,107,1) 11%, rgba(0,0,0,1) 100%);
+  font-family: Arial;
   box-sizing: border-box;
 }
 
-.body {
-  background-color: lightcoral;
-}
-
-.text {
-  font-size: 50px;
+body {
+  background: url("https://3.bp.blogspot.com/-B8KBWdTJT80/TtyJiR0jJUI/AAAAAAAAA-w/tr4eVszH5JM/s1600/sky-wallpaper-3-777451.jpg");
+  margin: 0;
 }
 
 button {
   background-color: black;
   color: white;
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 10px 10px;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-size: 25px;
+  outline: none;
+  width: 350px;
+  box-shadow: 2px 2px 2px 2px white;
+  animation-name: button;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
 }
 
-input{
-  padding: 5px;
+button:hover {
+  background: rgb(255, 255, 255);
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(229, 237, 246, 1) 100%);
+  border: 2px solid black;
+  color: grey;
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 form {
-  margin: 5px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-
 }
+
 input {
-  width: 200px;
-  padding: 10px 5px;
-}
-
-button[type='submit'] {
-  padding: 10px 5px;
-  width: 214px;
-}
-
-.block {
-  background-color: darksalmon;
-  padding: 10px;
-  margin: 5px;
-  box-shadow: 5px 5px 10px 5px white;
-  border: 1px solid grey;
+  width: 350px;
+  padding: 10px 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
   border-radius: 15px;
+  border: none;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 2px;
+  outline: none;
+  font-size: 20px;
+  background: none;
 }
 
-ul {
-  display: flex;
-  justify-content: flex-end;
-}
-a{
-  text-decoration: none;
-  color: white;
+textarea {
+  width: 350px;
+  height: 200px;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 2px;
   font-size: 20px;
 }
 
-li {
-  list-style: none;
-  margin: 10px;
-
-}
-
-a:hover {
-  color: darkgrey;
-}
-
-.top__burger {
+label {
+  color: black;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 25px;
   display: flex;
   flex-direction: column;
-  cursor: pointer;
-  margin: 16px 0;
-  padding: 13px;
-}
-.line, .line2, .line3 {
-  background-color: white;
-  height: 3px;
-  width: 30px;
-  border-radius: 15px;
-}
-.line, .line2 {
-  margin-bottom: 5px;
-}
-.top__burger:hover .line {
-  transform: rotate(45deg) translate(37%);
-}
-.top__burger:hover .line2 {
-  opacity: 0;
-}
-.top__burger:hover .line3 {
-  transform: rotate(135deg) translate(-37%);
 }
 
-nav {
+i {
+  font-size: 35px;
+  color: grey;
+  margin: 10px;
+  cursor: pointer;
+}
+
+i:hover {
+  color: black;
+}
+
+a {
   display: flex;
   align-items: center;
-  justify-content: flex-end;
-  width: 90%;
+}
+
+span {
+  color: grey;
+}
+
+h3 {
+  color: grey;
+  font-size: 25px;
+  font-weight: lighter;
+}
+
+a>h2 {
+  letter-spacing: 2px;
+  color: grey;
+  cursor: pointer;
+}
+
+h2:hover {
+  color: black;
+}
+
+h5 {
+  color: grey;
+}
+
+.postsDiv {
+  border: 1px solid black;
+  border-radius: 0 15px 15px 15px;
+  padding: 15px;
+  background: rgba(255, 255, 255, 0.7);
+  margin: 10px;
+}
+
+.posts_container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  gap: 5px;
+  width: 100%;
+}
+
+.navigation {
+  display: grid;
+  align-items: flex-start;
+  height: 100vh;
+  position: sticky;
+  left: 0;
+  top: 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 5fr;
+  background: rgba(250, 250, 250, 0.7);
+  padding-left: 15px;
+}
+
+.posts, .new-post, .logout {
+  font-size: 30px;
+}
+
+textarea {
+  outline: none;
+  background: rgba(255, 255, 255, 0.7);
+}
+
+@keyframes button {
+  0% {
+    background-color: black;
+  }
+  25% {
+    color: grey
+  }
+  50% {
+    background-color: white;
+    color: black;
+  }
+  75% {
+    color: grey;
+  }
+  100% {
+    background-color: black;
+    color: white;
+  }
+  125% {
+    color: grey;
+  }
+}
+
+.delete-button {
+  width: 150px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .posts_container {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .navigation {
+    width: 100px;
+  }
+
+  .posts, .new-post, .logout {
+    display: none;
+  }
 }

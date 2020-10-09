@@ -1,21 +1,14 @@
-import {loginForm} from "./components/loginForm";
-import {createNode} from "./library/createNode";
-
-
 export function login() {
-
 }
-
 export function loginFromToken() {
-    let token = localStorage.getItem('token');
+    let user = JSON.parse(localStorage.getItem('user'))
 
-    if (token) {
-        user.token = 'Bearer ' + token;
-        return true;
+    if (user) {
+        return user;
     }
     return false;
-}
 
+}
 export const user = {
     token: ''
 };
