@@ -19,13 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="eb58cba6-7830-4b9b-80e2-fc85cf264caf" name="Default Changelist" comment="veikiantis darbas">
+    <list default="true" id="eb58cba6-7830-4b9b-80e2-fc85cf264caf" name="Default Changelist" comment="veikiantis darbas2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Login.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/NewPost.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/NewPost.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Posts.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Posts.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Register.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Register.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +81,7 @@
       <workItem from="1601972777387" duration="10764000" />
       <workItem from="1602005626241" duration="332000" />
       <workItem from="1602050941742" duration="21586000" />
-      <workItem from="1602136362132" duration="40513000" />
+      <workItem from="1602136362132" duration="41295000" />
     </task>
     <task id="LOCAL-00001" summary="new">
       <created>1601974591192</created>
@@ -114,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602227925977</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="veikiantis darbas2">
+      <created>1602230759709</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602230759709</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,16 +140,17 @@
     <MESSAGE value="new" />
     <MESSAGE value="new push" />
     <MESSAGE value="veikiantis darbas" />
-    <option name="LAST_COMMIT_MESSAGE" value="veikiantis darbas" />
+    <MESSAGE value="veikiantis darbas2" />
+    <option name="LAST_COMMIT_MESSAGE" value="veikiantis darbas2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="550" y="168" key="FileChooserDialogImpl" timestamp="1602224790840">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="550" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1602224790840" />
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1602227927956">
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2" timestamp="1602230761317">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602227927956" />
+    <state x="362" y="146" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1602230761317" />
   </component>
 </project>
