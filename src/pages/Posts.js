@@ -66,8 +66,8 @@ export default class Posts extends Component {
             },
             method: 'DELETE'
         }).then((data) => {
-            console.log(data)
-            location.reload()
+            const postsAll = this.state.posts.filter(post => post.id !== id);
+            this.setState({posts: postsAll});
         });
     }
 }

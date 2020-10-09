@@ -88,9 +88,9 @@ export default class Register extends Component {
                 button.title
             )
         })
-        const icon = h('i', {class: "fas fa-user-astronaut"});
+        const icon = h('i', {class: "fas fa-cloud"});
         const question = h('h3', {}, 'Užsiregistravęs?');
-        const addUser = h('i', {class: "fas fa-user-plus", click: () => this.props.route('login')});
+        const addUser = h('i', {class: "fas fa-hands", click: () => this.props.route('login')});
         const form = h('form', {submit: (e) => this.register(e)}, icon, ...inputs, ...buttons, question, addUser);
         return h('div', {}, form);
     }

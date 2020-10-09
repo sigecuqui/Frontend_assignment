@@ -38,6 +38,7 @@ form {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 50px;
 }
 
 input {
@@ -52,6 +53,10 @@ input {
   outline: none;
   font-size: 20px;
   background: none;
+}
+
+.antraste {
+  background: rgba(255, 255, 255, 0.7);
 }
 
 textarea {
@@ -153,6 +158,10 @@ main {
 textarea {
   outline: none;
   background: rgba(255, 255, 255, 0.7);
+}
+
+p {
+  font-size: 20px;
 }
 
 @keyframes button {

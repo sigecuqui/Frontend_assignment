@@ -84,10 +84,10 @@ export default class Login extends Component {
             )
         });
 
-        const icon = h('i', {class: "fas fa-user-astronaut"});
+        const icon = h('i', {class: "fas fa-cloud"});
         const question = h('h3', {}, 'Pirmas kartas?');
         const addUser = h('i', {
-            class: "fas fa-user-plus",
+            class: "fas fa-hands",
             click: () => this.props.route('register')
         });
         const form = h('form', {submit: (e) => this.login(e)}, icon, ...inputs, ...buttons, question, addUser);

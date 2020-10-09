@@ -1,7 +1,5 @@
 import Component from "../library/Component";
 import h from "../library/hyperscript";
-// import {user} from "../login";
-import Navigation from "../components/Navigation";
 
 export default class NewPost extends Component {
     constructor(props) {
@@ -75,7 +73,8 @@ export default class NewPost extends Component {
                     {
                         keyup: e => this.handleInput(input.name, e.target.value),
                         placeholder: input.placeholder,
-                        name: input.name
+                        name: input.name,
+                        class: 'antraste'
                     }
                 ));
         });
@@ -85,7 +84,6 @@ export default class NewPost extends Component {
                 h('textarea', {
                 name: text.name,
                 placeholder: text.placeholder,
-
                 keyup: e => this.handleInput(text.name, e.target.value),
             }))
         })
